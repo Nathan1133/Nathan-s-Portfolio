@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+  /* styles to header */
+  header {
+    padding: 20px 35px;
+    background-color: #072b6e;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: #fce138;
+    margin: 0;
+    
+  }
+  header a {
+    text-decoration: none;
+    color: #fce138;
+  }
+  
+  header nav {
+    margin: 7px 0;
+  }
+  
+  header nav ul  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+  }
+  
+  header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
+  }
+
+  section {
+    padding: 30px;
+  }
+
+/* Hero */
+.hero {
+    background-image: url('../images/background.jpg');
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    position: relative;
+  }
+
+.profilePhoto {
+    position: absolute;
+    border: 3px solid #072b6e;
+    width: 200px;
+    top: 100px;
+    left: 30px;   
+}
+
+.hero h2 {
+  font-size: 24px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+  color: aliceblue;
+  margin-top: 300px;
+  background-color: blue;
+}
+
