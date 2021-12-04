@@ -5,7 +5,7 @@
   }
 
 
-  /* styles to header */
+  /* styles to Header */
   header {
     padding: 20px 35px;
     background-color: #072b6e;
@@ -48,7 +48,7 @@
     padding: 30px;
   }
 
-/* Hero */
+/* Hero Styles */
 .hero {
     background-image: url('../images/background.jpg');
     height: 600px;
@@ -76,3 +76,33 @@
   background-color: blue;
 }
 
+.primary-border {
+
+  border-color: black;
+}
+
+.flex-row {
+  display: flex;
+  justify-content: left;
+}
+
+/* About Me Styles */
+
+.aboutMe p {
+  line-height: 1.7;
+  color: black;
+  width: 80%;
+  margin: 0 auto;
+  font-size: 20px;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 35px;
+  font-family:sans-serif;
+  color: black;
+  margin: 0;
+  text-align: left;
+  font-weight: bold;
+  width: 100%;
+}
