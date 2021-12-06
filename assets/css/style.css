@@ -4,8 +4,8 @@
     box-sizing: border-box;
   }
 
-
   /* styles to Header */
+
   header {
     padding: 20px 35px;
     background-color: #072b6e;
@@ -18,6 +18,7 @@
     font-weight: bold;
     font-size: 36px;
     color: #fce138;
+    font-weight: bold;
     margin: 0;
     
   }
@@ -40,7 +41,7 @@
   
   header nav ul li a {
     margin: 0 30px;
-    font-weight: lighter;
+    font-weight: bold;
     font-size: 22px;
   }
 
@@ -49,6 +50,7 @@
   }
 
 /* Hero Styles */
+
 .hero {
     background-image: url('../images/background.jpg');
     height: 600px;
@@ -69,16 +71,10 @@
 }
 
 .hero h2 {
-  font-size: 24px;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+  font-size: 30px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   color: aliceblue;
   margin-top: 300px;
-  background-color: blue;
-}
-
-.primary-border {
-
-  border-color: black;
 }
 
 .flex-row {
@@ -94,7 +90,7 @@
   width: 80%;
   margin: 0 auto;
   font-size: 20px;
-  text-align: center;
+  text-align: left;
 }
 
 .section-title {
@@ -104,5 +100,59 @@
   margin: 0;
   text-align: left;
   font-weight: bold;
+  padding: 20px;
   width: 100%;
+  border: solid;
+}
+
+/* Work section */
+
+.applications {
+  flex: 1 0 0;
+  background-color: #fff;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-between;
+}
+
+.card {
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+  flex: 1 0 0;
+}
+
+.card header {
+  padding: 20px;
+  color: #fce138;
+}
+
+.card img {
+  width: 100%;
+  min-width: 400px;
+}
+
+.firstApp {
+  flex: 1 0 0;
+  background-color: #fff;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-between;
+}
+
+/* Contact Me */
+
+.contactMe ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-evenly;
+  list-style: none;
+}
+
+.contactMe ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
 }
